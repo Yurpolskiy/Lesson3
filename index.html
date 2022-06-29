@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
+    <title></title>
+</head>
+<body>
+<div class="login_bars">
+    <div class="bar_1">
+        <legend>Create an Account</legend>
+        <form class="form">
+            <div class="registration_nickname_bar">
+                <label for="first_name">
+                    <p class="first_name_title">First name</p>
+                    <input type="text" id="first_name" class="first-name-input">
+                </label>
+                <label for="last_name">
+                    <p class="last_name_title">Last name</p>
+                    <input type="text" id="last_name" class="last-name-input">
+                </label>
+            </div>
+            <div class="email_section">
+                <label for="email">
+                    <p class="email_title">E-mail</p>
+                    <input type="email" id="email" name="email" class="email_input">
+                </label>
+                <p class="friendly_message">We'll never share your email with anyone else.</p>
+            </div>
+            <div class="gender_choose">
+                <input type="radio" id="Male" value="male"  name="gender">
+                <label class="male_title" for="Male">Male</label>
+                <input type="radio" id="Female" value="female"  name="gender">
+                <label class="female_title" for="Female">Female</label>
+            </div>
+            <div class="location">
+                <label for="location_country" >
+                    <p class="country_title">Country</p>
+                    <input type="text" id="location_country" list="countries"
+                           placeholder="Select" class="locations_input" >
+                    <datalist id="countries">
+                        <option value="Ukraine">Ukraine</option>
+                        <option value="Usa">USA</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Shwedesh">Shwedesh</option>
+                    </datalist>
+                </label>
+                <label for="location_city">
+                        <p class="city_title">City</p>
+                        <input type="text" id="location_city" class="city_input">
+                </label>
+            </div>
+            <button class="signup_button">Sing Up</button>
+            <div class="terms_of_use">
+                <p class="confirms_of_terms_of_use"> By clicking the 'Sign Up' button, you confirm that you accept our
+                    <a class="terms-of-use-href" href="#">Terms of use</a>
+                    and <a class="terms-of-use-href" href="#">Privacy Policy</a>
+                </p>
+            </div>
+            <div class="loginquestion">
+                <span class="account_pass_question">Have an account?</span>
+                <a class="login_href" href="#">Log In</a>
+            </div>
+        </form>
+    </div>
+    <div class="bar_2">
+        <legend>Profile</legend>
+        <form class="form">
+            <div class="profile_form">
+                <div class="input_photo">
+                    <label  class="profile_pic" for="profile_pic">
+                        <img src="./images/📷%20Image.svg" alt="photo">
+                        <input type="image" class="input_pic" src="images/Small.svg" alt="photo" id="profile_pic" >
+                        <input type="image" class="delete_pic" src="images/Small_2.svg" alt="bucket">
+                    </label>
+                </div>
+                <div class="profile_register_section">
+                    <label for="Name_input">
+                        <p class="name_input_title">Name</p>
+                        <input class="name_login_input" type="text" id="Name_input" name="login_input">
+                    </label>
+                    <label for="Email_input">
+                        <p class="email_input_title">E-mail</p>
+                        <input class="email_login_input" type="email" id="Email_input" name="email_input">
+                    </label>
+                </div>
+                <div class="navigation_section">
+                    <label for="Country">
+                        <p class="navigation_title">Country</p>
+                        <input type="text" id="Country" list="countries" placeholder="Select"
+                        class="nav_countries_input">
+                        <datalist>
+                            <option value="Ukraine">Ukraine</option>
+                            <option value="Usa">USA</option>
+                            <option value="Canada">Canada</option>
+                            <option value="Shwedesh">Shwedesh</option>
+                        </datalist>
+                    </label>
+                    <label for="nav_city">
+                        <p class="nav_city_title">City</p>
+                        <input type="text" id="nav_city" name="nav_city_input" class="nav_city_input">
+                    </label>
+                </div>
+                <div class="validation_section">
+                    <label for="zip-code">
+                        <p class="zip-code-title">Zip Code</p>
+                        <input type="number" id="zip-code" class="zip-code-input" placeholder="zip-code">
+                    </label>
+                    <label for="phone">
+                        <p class="phone_title">Phone Number</p>
+                        <input type="tel" id="phone" class="phone_input">
+                    </label>
+                </div>
+                <button class="update_button">
+                    Update
+                </button>
+            </div>
+
+        </form>
+    </div>
+</div>

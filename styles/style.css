@@ -1,0 +1,457 @@
+body{
+    margin: 0 auto;
+    width: 1320px;
+    background: #E5E5E5;
+}
+
+.login_bars{
+    padding-top: 125px;
+    justify-content: space-between;
+    height: 590px;
+    display: flex;
+}
+
+legend{
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    width: 199px;
+    height: 32px;
+    padding-top: 35px;
+    padding-left: 36px;
+    padding-right: 335px;
+    padding-bottom: 20px;
+    font-size: 24px;
+    font-weight: 500;
+}
+.registration_form{
+    margin: 0 auto;
+}
+
+.registration_nickname_bar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 34px;
+}
+
+.bar_1{
+    widht: 570px;
+    height: 590px;
+    background-color: white;
+}
+
+.first_name_title{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+
+.first-name-input{
+    padding: 4px 8px;
+    color: #292848;
+    font-size: 18px;
+    background: #FFFFFF;
+    border: 1px solid #766262;
+    border-radius: 6px;
+    box-sizing: border-box;
+    width: 245px;
+    height: 38px;
+}
+
+.last_name_title{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+.last-name-input{
+    padding: 4px 8px;
+    color: #292848;
+    font-size: 18px;
+    background: #FFFFFF;
+    border: 1px solid #766262;
+    border-radius: 6px;
+    box-sizing: border-box;
+    width: 245px;
+    height: 38px;
+    margin-bottom: 20px;
+}
+
+.email_section{
+    margin-left: 34px;
+    height: 92px;
+}
+
+.email_title{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+
+.email_input{
+    padding: 4px 8px;
+    color: #292848;
+    font-size: 18px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #766262;
+    border-radius: 6px;
+    height: 38px;
+    width: 500px;
+    margin-bottom: 7px;
+}
+
+.friendly_message{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    color: #969696;
+    margin-bottom: 20px;
+}
+
+.gender_choose{
+    margin-left:36px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.male_title{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    margin-right: 20px;
+}
+
+.female_title{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.location{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 36px;
+    height: 98px;
+    margin-bottom: 20px;
+}
+
+.country_title{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+
+.locations_input{
+    background: #FFFFFF;
+    border: 1px solid #E4E4E4;
+    border-radius: 6px;
+    height: 38px;
+    width: 215px;
+    padding: 4px 8px;
+}
+
+.city_title{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+
+.city_input{
+    background: #FFFFFF;
+    border: 1px solid #E4E4E4;
+    border-radius: 6px;
+    height: 38px;
+    width: 225px;
+    padding: 4px 8px;
+}
+
+.signup_button{
+    margin-left: 36px;
+    margin-right: 34px;
+    height: 38px;
+    width: 500px;
+    text-align: center;
+    background: #007BFF;
+    border: 1px solid #E4E4E4;
+    border-radius: 6px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: #FFFFFF
+}
+
+.terms_of_use{
+    margin: 0 auto;
+    width: 400px;
+}
+
+.confirms_of_terms_of_use{
+    line-height: 18px;
+    color: #969696;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    margin-bottom: 25px;
+}
+
+.terms-of-use-href{
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.loginquestion{
+    font-size: 15px;
+    text-align: center;
+}
+
+.account_pass_question{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #545454;
+    margin-right: 20px;
+}
+
+.login_href{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.bar_2{
+    margin-right: 100px;
+    widht: 570px;
+    height: 590px;
+    background-color: white;
+}
+
+
+.profile_form{
+    height: 503px;
+}
+
+.input_photo{
+}
+
+.input_photo{
+    width: 273px;
+}
+
+.profile_pic{
+    width: 80px;
+    height: 80px;
+    margin-left: 35px;
+    margin-right: 20px;
+}
+
+.input_pic{
+    margin-bottom: 9px;
+    width: 138px;
+    margin-left: 20px;
+}
+
+.delete_pic{
+    margin-bottom: 9px;
+    width: 30px;
+    margin-left: 10px;
+}
+
+.image_advice{
+    width: 141px;
+    height: 18px;
+    font-size: 13px;
+    line-height: 18px;
+    font-family: 'Roboto', sans-serif;
+    display: inline;
+}
+
+.profile_register_section{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px;
+    margin-bottom: 20px;
+}
+
+.name_input_title{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #545454;
+    height: 22px;
+    width: 245px;
+    margin-bottom: 7px
+}
+.name_login_input{
+    background: #FFFFFF;
+    border: 1px solid #E4E4E4;
+    border-radius: 6px;
+    width: 245px;
+    height: 38px;
+    padding: 4px 8px;
+    font-size: 18px;
+
+}
+.email_input_title{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #545454;
+    height: 22px;
+    width: 245px;
+    margin-bottom: 7px;
+    margin-left: 10px;
+}
+.email_login_input{
+    background: #FFFFFF;
+    border: 1px solid #E4E4E4;
+    border-radius: 6px;
+    width: 245px;
+    height: 38px;
+    padding: 4px 8px;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.navigation_section{
+    margin: 0 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation_title{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #545454;
+    height: 22px;
+    width: 245px;
+    margin-bottom: 7px;
+    margin-left: 15px;
+}
+
+.nav_countries_input{
+    background: #FFFFFF;
+    border: 1px solid #E4E4E4;
+    border-radius: 6px;
+    width: 245px;
+    height: 38px;
+    padding: 4px 8px;
+    font-size: 18px;
+}
+
+.nav_city_title{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #545454;
+    height: 22px;
+    width: 245px;
+    margin-bottom: 7px;
+}
+
+.nav_city_input{
+    background: #FFFFFF;
+    border: 1px solid #E4E4E4;
+    border-radius: 6px;
+    width: 245px;
+    height: 38px;
+    padding: 4px 8px;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.validation_section{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px;
+}
+.zip-code-title{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #545454;
+    height: 22px;
+    width: 245px;
+    margin-bottom: 7px;
+}
+.zip-code-input{
+    background: #FFFFFF;
+    border: 1px solid #E4E4E4;
+    border-radius: 6px;
+    width: 245px;
+    height: 38px;
+    padding: 4px 8px;
+    font-size: 18px;
+    margin-right: 15px;
+}
+
+.phone_title{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #545454;
+    height: 22px;
+    width: 245px;
+    margin-bottom: 7px;
+}
+.phone_input{
+    background: #FFFFFF;
+    border: 1px solid #E4E4E4;
+    border-radius: 6px;
+    width: 245px;
+    height: 38px;
+    padding: 4px 8px;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+.update_button{
+    text-align: center;
+    margin-left: 35px;
+    margin-top: 20px;
+    width: 150px;
+    height: 38px;
+    background-color: #007BFF;
+    border-radius: 6px;
+    color: white;
+    letter-spacing: -0.1px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    border: 0;
+}
+
+
