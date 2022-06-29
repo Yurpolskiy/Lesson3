@@ -205,7 +205,7 @@ legend{
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
-    margin-bottom: 25px;
+    margin-bottom: 0px;
 }
 
 .terms-of-use-href{
@@ -216,6 +216,8 @@ legend{
 .loginquestion{
     font-size: 15px;
     text-align: center;
+    margin-bottom: 15px;
+    margin-top: 5px;
 }
 
 .account_pass_question{
