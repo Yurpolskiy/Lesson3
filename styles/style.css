@@ -255,6 +255,7 @@ legend{
 
 
 .input_photo{
+    display: inline;
     width: 273px;
 }
 
